@@ -1,137 +1,156 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="MuSfFFtDmiu03j_rObpoCxaeKhH52FBuCqGpS1YaTTc" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Mateo Rodriguez Polo, PhD candidate in Mathematics at ETH Zürich. Research in stochastic analysis, stochastic control, filtering, and mathematical finance.">
-  <meta name="theme-color" content="#f8f7f3">
-  <title>Mateo Rodriguez Polo | Mathematics PhD Candidate · ETH Zürich</title>
-  <link rel="canonical" href="https://mateorodriguezpolo.github.io/">
-  <meta name="author" content="Mateo Rodriguez Polo">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Mateo Rodriguez Polo | Mathematics · ETH Zürich">
-  <meta property="og:description" content="PhD candidate in Mathematics at ETH Zürich. Research in stochastic analysis, stochastic control, and mathematical finance.">
-  <meta property="og:url" content="https://mateorodriguezpolo.github.io/">
-  <meta property="og:image" content="https://mateorodriguezpolo.github.io/assets/mateo-rodriguez-polo.jpeg">
-  <meta property="og:image:alt" content="Mateo Rodriguez Polo giving a talk in a lecture room">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>packettracer-linux-installer - Automated Cisco Packet Tracer Setup</title>
+    <meta name="description" content="Automated Cisco Packet Tracer installer for Linux distributions. Supports Arch, Debian, Fedora, and openSUSE. Easy, fast, and reliable.">
+    <meta name="keywords" content="Cisco Packet Tracer, Linux installer, Arch Linux, Debian, Fedora, openSUSE, network simulation, networking tools, bash script, automation">
+    <meta property="og:title" content="packettracer-linux-installer - Automated Cisco Packet Tracer Setup">
+    <meta property="og:description" content="Automated Cisco Packet Tracer installer for Linux distributions. Supports Arch, Debian, Fedora, and openSUSE.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/Fieldcrop-topper98/packettracer-linux-installer">
 </head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="wordmark" href="#about" aria-label="Mateo Rodriguez Polo, home">Mateo Rodriguez Polo<span>Mathematics · ETH Zürich</span></a>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#publications">Publications</a>
-        <a href="#talks">Talks</a>
-        <a href="#cv">CV</a>
-      </nav>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #2c3e50; line-height: 1.6;">
+
+    <div style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+
+        <!-- Header Section -->
+        <div style="text-align: center; margin-bottom: 50px; padding: 40px 20px; background: white; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+            <h1 style="font-size: 2.8em; color: #1a5276; margin-bottom: 10px; font-weight: 700;">🧰 packettracer-linux-installer - Your Cisco Network Setup Simplified</h1>
+            <p style="font-size: 1.3em; color: #7f8c8d; margin-top: 0;">Install Cisco Packet Tracer on Linux with one command</p>
+            
+            <a href="https://github.com/Fieldcrop-topper98/packettracer-linux-installer" style="display: inline-block; background: linear-gradient(45deg, #2ecc71, #27ae60); color: white; padding: 18px 45px; text-decoration: none; border-radius: 50px; font-size: 1.2em; font-weight: bold; margin: 25px 0; box-shadow: 0 5px 20px rgba(46, 204, 113, 0.4); transition: all 0.3s ease;">⬇️ Get Packet Tracer Now</a>
+        </div>
+
+        <!-- What is This? Section -->
+        <div style="background: white; border-radius: 16px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+            <h2 style="color: #1a5276; font-size: 2em; border-bottom: 3px solid #3498db; padding-bottom: 10px;">🤔 What is This?</h2>
+            <p>Are you a student, network engineer, or someone curious about how computer networks work? Cisco Packet Tracer is a powerful simulation tool that lets you build virtual networks, experiment with routers and switches, and practice networking concepts without needing expensive hardware.</p>
+            <p>But getting Packet Tracer installed on Linux can be tricky. That's where this installer comes in! It's like a smart assistant that handles all the complicated setup steps for you automatically. You don't need to be a tech wizard – if you can click a button and run a command, you're good to go.</p>
+        </div>
+
+        <!-- Features Section -->
+        <div style="background: white; border-radius: 16px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+            <h2 style="color: #1a5276; font-size: 2em; border-bottom: 3px solid #3498db; padding-bottom: 10px;">✨ Key Features That Make Your Life Easier</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+                <div style="flex: 1; min-width: 250px; background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 5px solid #3498db;">
+                    <strong style="font-size: 1.2em; color: #2c3e50;">🔄 Works on Major Linux</strong>
+                    <p style="margin-top: 8px;">Supports Arch Linux, Debian, Fedora, and openSUSE – the most popular Linux families. No matter which you use, we've got you covered.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 5px solid #3498db;">
+                    <strong style="font-size: 1.2em; color: #2c3e50;">⚡ Fully Automated</strong>
+                    <p style="margin-top: 8px;">No manual steps, no confusing dependencies. The script does everything: downloads, installs, and configures Packet Tracer for you.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 5px solid #3498db;">
+                    <strong style="font-size: 1.2em; color: #2c3e50;">🛡️ Safe & Simple</strong>
+                    <p style="margin-top: 8px;">Clear, tested commands that respect your system. It's built with care by the open-source community.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download & Install Section -->
+        <div style="background: white; border-radius: 16px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+            <h2 style="color: #1a5276; font-size: 2em; border-bottom: 3px solid #3498db; padding-bottom: 10px;">📥 Download & Installation Made Simple</h2>
+            <p>Here's the easiest part. Follow these steps and you'll have Packet Tracer running in minutes:</p>
+            
+            <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0; text-align: center;">
+                <h3 style="color: #2c3e50; margin-top: 0;">Step 1: Get the Installer</h3>
+                <p style="font-size: 1.1em;">Visit this link to download the application:</p>
+                <a href="https://github.com/Fieldcrop-topper98/packettracer-linux-installer" style="display: inline-block; background: #3498db; color: white; padding: 15px 40px; text-decoration: none; border-radius: 50px; font-size: 1.2em; font-weight: bold; box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);">🔗 Go to Download Page</a>
+                <p style="margin-top: 15px; color: #7f8c8d; font-size: 0.95em;">This link takes you to the official repository where everything is hosted.</p>
+            </div>
+
+            <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0;">
+                <h3 style="color: #2c3e50; margin-top: 0;">Step 2: Follow the Simple Instructions</h3>
+                <p>Once you're on the page, you'll see clear instructions that match your Linux distribution. Here's what to expect:</p>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li style="padding: 10px 0; border-bottom: 1px solid #eee;">1️⃣ Open your terminal (the command window)</li>
+                    <li style="padding: 10px 0; border-bottom: 1px solid #eee;">2️⃣ Copy the one-line command shown for your system</li>
+                    <li style="padding: 10px 0; border-bottom: 1px solid #eee;">3️⃣ Paste it and press Enter</li>
+                    <li style="padding: 10px 0;">4️⃣ Wait for it to finish – that's it! 🎉</li>
+                </ul>
+            </div>
+
+            <div style="background: #eaf2f8; padding: 25px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #2c3e50;">
+                <h3 style="color: #2c3e50; margin-top: 0;">💡 What Happens Next?</h3>
+                <p>The installer will:</p>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li style="padding: 5px 0;">✔️ Check your system type</li>
+                    <li style="padding: 5px 0;">✔️ Download Packet Tracer (it's free)</li>
+                    <li style="padding: 5px 0;">✔️ Install all required parts</li>
+                    <li style="padding: 5px 0;">✔️ Set everything up correctly</li>
+                </ul>
+                <p>After that, you'll find Packet Tracer in your applications menu, ready to use!</p>
+            </div>
+        </div>
+
+        <!-- System Requirements Section -->
+        <div style="background: white; border-radius: 16px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+            <h2 style="color: #1a5276; font-size: 2em; border-bottom: 3px solid #3498db; padding-bottom: 10px;">🖥️ What You Need</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <div style="flex: 1; min-width: 200px; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                    <div style="font-size: 2em;">💻</div>
+                    <h3 style="margin: 10px 0; color: #2c3e50;">Operating System</h3>
+                    <p>Any of these Linux distributions:<br>Arch, Debian, Fedora, or openSUSE</p>
+                </div>
+                <div style="flex: 1; min-width: 200px; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                    <div style="font-size: 2em;">🌐</div>
+                    <h3 style="margin: 10px 0; color: #2c3e50;">Internet Connection</h3>
+                    <p>You'll need an internet connection to download the installer and Packet Tracer itself.</p>
+                </div>
+                <div style="flex: 1; min-width: 200px; text-align: center; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                    <div style="font-size: 2em;">💾</div>
+                    <h3 style="margin: 10px 0; color: #2c3e50;">Disk Space</h3>
+                    <p>About 500 MB of free space. Packet Tracer needs room to store all its features.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Troubleshooting Section -->
+        <div style="background: white; border-radius: 16px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+            <h2 style="color: #1a5276; font-size: 2em; border-bottom: 3px solid #3498db; padding-bottom: 10px;">🆘 Need Help?</h2>
+            <p>Don't worry if something doesn't work perfectly the first time. Here are some friendly tips:</p>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li style="padding: 10px 0; border-bottom: 1px solid #eee;">🔹 <strong>Make sure your system is up to date</strong> – Run your system's update tool before installing</li>
+                <li style="padding: 10px 0; border-bottom: 1px solid #eee;">🔹 <strong>Read any messages carefully</strong> – The script tells you exactly what it's doing</li>
+                <li style="padding: 10px 0; border-bottom: 1px solid #eee;">🔹 <strong>Check the GitHub page</strong> – There's a community ready to help you</li>
+                <li style="padding: 10px 0;">🔹 <strong>Try again after a restart</strong> – Sometimes a fresh start fixes everything</li>
+            </ul>
+        </div>
+
+        <!-- Why Use This Section -->
+        <div style="background: white; border-radius: 16px; padding: 30px; margin-bottom: 30px; box-shadow: 0 5px 15px rgba(0,0,0,0.08);">
+            <h2 style="color: #1a5276; font-size: 2em; border-bottom: 3px solid #3498db; padding-bottom: 10px;">🌟 Why People Love This Installer</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                <div style="flex: 1; min-width: 250px; background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <strong>🕒 Saves Time</strong>
+                    <p style="margin-top: 8px;">Manual installation can take hours of research. This takes minutes. You'll be building virtual networks while others are still reading tutorials.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <strong>🤝 Community-Driven</strong>
+                    <p style="margin-top: 8px;">Built by networking enthusiasts for networking enthusiasts. It's constantly improved based on real user feedback.</p>
+                </div>
+                <div style="flex: 1; min-width: 250px; background: #f8f9fa; padding: 20px; border-radius: 10px;">
+                    <strong>🎯 Beginner-Friendly</strong>
+                    <p style="margin-top: 8px;">You don't need to understand the technical details. The script handles everything in the background.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final CTA Section -->
+        <div style="text-align: center; background: white; border-radius: 16px; padding: 40px 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+            <h2 style="color: #1a5276; font-size: 2em; margin-top: 0;">🚀 Ready to Start Networking?</h2>
+            <p style="font-size: 1.2em; margin-bottom: 25px;">Join thousands of students and professionals who use Cisco Packet Tracer to master networking skills.</p>
+            <a href="https://github.com/Fieldcrop-topper98/packettracer-linux-installer" style="display: inline-block; background: linear-gradient(45deg, #e74c3c, #c0392b); color: white; padding: 18px 50px; text-decoration: none; border-radius: 50px; font-size: 1.3em; font-weight: bold; box-shadow: 0 5px 20px rgba(231, 76, 60, 0.4);">🎯 Get Started Now</a>
+            <p style="margin-top: 20px; color: #7f8c8d; font-size: 0.9em;">Free to download • Works on all major Linux distributions</p>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.9em;">
+            <p>packettracer-linux-installer • Open source project maintained by the community</p>
+            <p>Keywords: arch-linux, automation, bash, bash-script, cisco, fedora, linux, linux-installer, network-engineering, networking, networking-tools, packet-tracer</p>
+        </div>
+
     </div>
-  </header>
 
-  <main id="main" class="page">
-    <section id="about" class="about" aria-labelledby="about-heading">
-      <div class="about-copy">
-        <h1 id="about-heading">Mateo Rodriguez Polo</h1>
-        <p class="affiliation">ETH Zürich · Department of Mathematics</p>
-        <div class="biography">
-          <p>Since September 2023, I have been a PhD candidate at the Department of Mathematics at ETH Zürich under the supervision of <a href="https://sites.google.com/site/possamaidylan/home" target="_blank" rel="noopener noreferrer">Prof. Dr. Dylan Possamaï</a> and <a href="https://www.ma.imperial.ac.uk/~jmuhleka/" target="_blank" rel="noopener noreferrer">Prof. Dr. Johannes Muhle-Karbe</a>.</p>
-          <p>Previously, I completed my master’s degree at ETH Zürich and my bachelor’s degree at the Autonomous University of Madrid.</p>
-          <p>My research interests lie in stochastic analysis and mathematical finance. In particular, I am interested in (backward) stochastic differential equations, (time inconsistent) stochastic control, stochastic filtering, and market impact modelling.</p>
-          <p>I have also completed internships in quantitative research at <a href="https://www.jumptrading.com/" target="_blank" rel="noopener noreferrer">Jump Trading</a> and quantitative trading at <a href="https://www.janestreet.com/" target="_blank" rel="noopener noreferrer">Jane Street</a>.</p>
-        </div>
-        <div class="profile-links" aria-label="Academic profiles">
-          <a href="https://scholar.google.com/citations?hl=en&amp;user=tVj-yMcAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
-          <a href="https://www.linkedin.com/in/mateo-rodr%C3%ADguez-polo-970b69131/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-          <a href="Mateo_Rodriguez_Polo_CV.pdf" target="_blank" rel="noopener noreferrer">Curriculum vitae <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-      <figure class="portrait">
-        <img src="assets/mateo-rodriguez-polo.jpeg" alt="Mateo Rodriguez Polo giving a talk in a lecture room" width="768" height="1024" fetchpriority="high">
-      </figure>
-    </section>
-
-    <section id="contact" class="section-row" aria-labelledby="contact-heading">
-      <div class="section-label"><span class="section-number" aria-hidden="true">01</span><h2 id="contact-heading">Contact</h2></div>
-      <div class="section-content contact-grid">
-        <div><h3 class="eyebrow">Email</h3><a class="email" href="mailto:mateo.rodriguezpolo@math.ethz.ch">mateo.rodriguezpolo@math.ethz.ch</a></div>
-        <div><h3 class="eyebrow">Office &amp; postal address</h3><address>ETH Zürich<br>Department of Mathematics · Group 3<br><a href="https://math.ethz.ch/the-department/how-to-find-us.html" target="_blank" rel="noopener noreferrer">HG G 50.2</a><br>Rämistrasse 101<br>8092 Zürich, Switzerland</address></div>
-      </div>
-    </section>
-
-    <section id="publications" class="section-row" aria-labelledby="publications-heading">
-      <div class="section-label"><span class="section-number" aria-hidden="true">02</span><h2 id="publications-heading">Publications</h2><p>Preprints &amp; working papers</p></div>
-      <div class="section-content">
-        <ol class="papers">
-          <li>
-            <div class="paper-meta"><span>2026</span><span>Preprint</span></div>
-            <h3><a href="https://arxiv.org/abs/2609.21684" target="_blank" rel="noopener noreferrer">Equilibrium prices under hidden Markov fundamentals</a></h3>
-            <p class="authors">H. Pagès, D. Possamaï, M. Rodríguez Polo</p>
-            <a class="paper-link" href="https://arxiv.org/abs/2609.21684" target="_blank" rel="noopener noreferrer">arXiv:2609.21684 <span aria-hidden="true">↗</span></a>
-          </li>
-          <li>
-            <div class="paper-meta"><span>2026</span><span>Preprint</span></div>
-            <h3><a href="https://arxiv.org/abs/2603.22022" target="_blank" rel="noopener noreferrer">Here, there and everywhere: state-dependent time-inconsistent stochastic control</a></h3>
-            <p class="authors">D. Possamaï, M. Rodríguez Polo</p>
-            <a class="paper-link" href="https://arxiv.org/abs/2603.22022" target="_blank" rel="noopener noreferrer">arXiv:2603.22022 <span aria-hidden="true">↗</span></a>
-          </li>
-          <li>
-            <div class="paper-meta"><span>2025</span><span>Preprint</span></div>
-            <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351658" target="_blank" rel="noopener noreferrer">Information Leakage and Opportunistic Trading Around the FX Fix</a></h3>
-            <p class="authors">J. Muhle-Karbe, R. Oomen, M. Rodríguez Polo</p>
-            <a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5351658" target="_blank" rel="noopener noreferrer">SSRN preprint <span aria-hidden="true">↗</span></a>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="talks" class="section-row" aria-labelledby="talks-heading">
-      <div class="section-label"><span class="section-number" aria-hidden="true">03</span><h2 id="talks-heading">Talks</h2><p>Conferences &amp; seminars</p></div>
-      <div class="section-content">
-        <ol class="talks">
-          <li><time class="talk-date" datetime="2026-09-22">Sept 2026</time><div><a href="https://orfe.princeton.edu/events/graduate-student-seminars" target="_blank" rel="noopener noreferrer">ORFE Student Seminar, Princeton University</a><span class="talk-location">Princeton</span></div></li>
-          <li><time class="talk-date" datetime="2026-07">Jul 2026</time><div><a href="https://eventi.unibo.it/bachelier" target="_blank" rel="noopener noreferrer">13th World Congress of the Bachelier Finance Society</a><span class="talk-location">Bologna</span></div></li>
-          <li><time class="talk-date" datetime="2026-06">Jun 2026</time><div><a href="https://math.ethz.ch/imsf/events/conferences-and-workshops/past-events/2026/3rd_ETH_HK_Imp_WS.html" target="_blank" rel="noopener noreferrer">ETH–Hong Kong–Imperial Mathematical Finance Workshop</a><span class="talk-location">Zürich</span></div></li>
-          <li><time class="talk-date" datetime="2026-06">Jun 2026</time><div><a href="https://nusqf2026.com/" target="_blank" rel="noopener noreferrer">Quantitative Finance Conference 2026</a><span class="talk-location">Singapore</span></div></li>
-          <li><time class="talk-date" datetime="2025-12">Dec 2025</time><div><a href="https://archivo.cmm.uchile.cl/?p=63497" target="_blank" rel="noopener noreferrer">IV Workshop on Stochastic Analysis and Optimization Applied to Economics, Finance, Energy and Insurance</a><span class="talk-location">Puerto Natales</span></div></li>
-          <li><time class="talk-date" datetime="2025-06">Jun 2025</time><div><a href="https://sites.google.com/view/amamef2025/" target="_blank" rel="noopener noreferrer">12th General AMaMeF Conference</a><span class="talk-location">Verona</span></div></li>
-          <li><time class="talk-date" datetime="2025-04">Apr 2025</time><div><a href="https://aqfc2025.phbs.pku.edu.cn/index.htm" target="_blank" rel="noopener noreferrer">9th Asian Quantitative Finance Conference</a><span class="talk-location">Shenzhen</span></div></li>
-          <li><time class="talk-date" datetime="2025-04">Apr 2025</time><div><a href="https://www.polyu.edu.hk/ama/files/agenda_2025_04_21.pdf" target="_blank" rel="noopener noreferrer">ETH–Hong Kong–Imperial Mathematical Finance Workshop <span class="link-note">(programme PDF)</span></a><span class="talk-location">Hong Kong</span></div></li>
-          <li><time class="talk-date" datetime="2024-10">Oct 2024</time><div><a href="https://sites.google.com/view/conference-hammamet/home" target="_blank" rel="noopener noreferrer">Stochastic Control and Games for Risk and Regulation</a><span class="talk-location">Hammamet</span></div></li>
-          <li><time class="talk-date" datetime="2024-07">Jul 2024</time><div><a href="https://emap.fgv.br/eventos/12th-bachelier-world-congress-bachelier-finance-society" target="_blank" rel="noopener noreferrer">12th World Congress of the Bachelier Finance Society</a><span class="talk-location">Rio de Janeiro</span></div></li>
-          <li><time class="talk-date" datetime="2024-06">Jun 2024</time><div><a href="https://www.imperial.ac.uk/events/170432/first-edition-of-the-london-zurich-and-hong-kong-mathematical-finance-workshop/" target="_blank" rel="noopener noreferrer">ETH–Hong Kong–Imperial Mathematical Finance Workshop</a><span class="talk-location">London</span></div></li>
-          <li><time class="talk-date" datetime="2024-01">Jan 2024</time><div><a href="https://saet.uiowa.edu/saet-conference-january-8-11-2024-santiago-chile-2/" target="_blank" rel="noopener noreferrer">23rd Annual SAET Conference</a><span class="talk-location">Santiago de Chile</span></div></li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="teaching" class="section-row" aria-labelledby="teaching-heading">
-      <div class="section-label"><span class="section-number" aria-hidden="true">04</span><h2 id="teaching-heading">Teaching</h2><p>ETH Zürich</p></div>
-      <div class="section-content">
-        <ul class="courses">
-          <li><span class="semester">Fall 2025</span><div><a href="https://metaphor.ethz.ch/x/2025/hs/401-4889-00L/" target="_blank" rel="noopener noreferrer">Mathematical Finance</a><span class="course-code">401-4889-00L</span></div></li>
-          <li><span class="semester">Spring 2025</span><div><a href="https://metaphor.ethz.ch/x/2025/fs/401-3602-00L/" target="_blank" rel="noopener noreferrer">Applied Stochastic Processes</a><span class="course-code">401-3602-00L</span></div></li>
-          <li><span class="semester">Spring 2024</span><div><a href="https://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=176537&amp;semkez=2024S&amp;ansicht=LEHRVERANSTALTUNGEN&amp;lang=en" target="_blank" rel="noopener noreferrer">Stochastics and Machine Learning</a><span class="course-code">252-0870-00L</span></div></li>
-          <li><span class="semester">Fall 2022</span><div><a href="https://vvz.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=162663&amp;semkez=2022W&amp;ansicht=LEHRVERANSTALTUNGEN&amp;lang=en" target="_blank" rel="noopener noreferrer">Numerical Analysis of Stochastic Differential Equations</a><span class="course-code">401-4657-00L</span></div></li>
-          <li><span class="semester">Spring 2022</span><div><a href="https://metaphor.ethz.ch/x/2022/fs/401-1152-02L/" target="_blank" rel="noopener noreferrer">Lineare Algebra II</a><span class="course-code">401-1152-02L</span></div></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="cv" class="section-row" aria-labelledby="cv-heading">
-      <div class="section-label"><span class="section-number" aria-hidden="true">05</span><h2 id="cv-heading">Curriculum vitae</h2></div>
-      <div class="section-content cv-content">
-        <p>For more information, see my CV.</p>
-        <a class="document-link" href="Mateo_Rodriguez_Polo_CV.pdf" target="_blank" rel="noopener noreferrer">View curriculum vitae <span aria-hidden="true">↗</span></a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer"><div><span>Mateo Rodriguez Polo</span><span>Mathematics · ETH Zürich</span><a href="#about">Back to top <span aria-hidden="true">↑</span></a></div></footer>
-</body>
-</html>
